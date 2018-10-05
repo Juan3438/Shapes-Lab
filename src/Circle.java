@@ -1,13 +1,9 @@
-import java.awt.Shape;
-
-import static javafx.scene.input.KeyCode.R;
-
-public abstract class Circle extends Shape {
+public class Circle extends Shape {
     private double radius;
     private double pi = Math.PI;
 
     public Circle(int radius){
-        super(Circle);
+        super("Circle");
         this.radius = radius;
 
     }
