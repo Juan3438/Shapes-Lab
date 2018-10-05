@@ -1,13 +1,20 @@
-import java.awt.*;
 import java.awt.Shape;
 
-public class Circle {
-    public static void main(){
-        public static Shape circle(int radius){
-            int radius = num;
-        }
-    }
-    public static Shape getArea(){
+import static javafx.scene.input.KeyCode.R;
 
+public abstract class Circle extends Shape {
+    private double radius;
+    private double pi = Math.PI;
+
+    public Circle(int radius){
+        super(Circle);
+        this.radius = radius;
+
+    }
+    public double getArea(){
+        return (radius*radius*pi);
+    }
+    public double getPerimeter(){
+        return(2*pi*radius);
     }
 }

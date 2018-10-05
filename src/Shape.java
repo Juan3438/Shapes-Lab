@@ -22,7 +22,7 @@ public class runner
     {
         Shape shape1 = new Rectangle(10,5);
         Shape shape2 = new ETriangle(5);
-        Shape shape3 = new Circle(10);x
+        Shape shape3 = new Circle(10);
         Shape[] shapes = {shape1, shape2, shape3};
 
         for (Shape cur: shapes)

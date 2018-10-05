@@ -1,7 +1,10 @@
 package Travis_Triangle;
 
 
-public class ETriangle extends Shape {
+import javafx.scene.shape.Shape;
+
+public class ETriangle extends Shape
+{
 
 
     private int side;
